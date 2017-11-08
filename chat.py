@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     while True:
         # 获取用户的输入
-        inputs_str = raw_input(u'me > ')
+        inputs_str = raw_input(u'Me > ')
         inputs_seg = ' '.join(jieba.cut(inputs_str))
         # cosine 相似度
         cosine_sim = vectorMatcher.match(inputs_seg, sent_vec, vec_model)
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         else:
             print '模板无结果，从相似匹配获得结果'
             response = get_response(response_frame, inputs_str)
-        print (u'小京灵 > %s'%response)
+        print (u'ChatBot > %s'%response)
 
         # 需要把之前计算的概率值去掉，要不然计算相似度时候维度不同
         sent_vec = sent_vec.iloc[:, 0:202]

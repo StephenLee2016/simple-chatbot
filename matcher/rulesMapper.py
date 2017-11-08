@@ -12,6 +12,7 @@ def add_rules():
     # 加载aiml规则模板
     mybot.learn(rule_path + '/matcher/rules/Common_conversation.aiml')
     mybot.learn(rule_path + '/matcher/rules/bye.aiml')
+    mybot.learn(rule_path + '/matcher/rules/tuling.aiml')
     #mybot.learn(rule_path + '/matcher/rules/tools.aiml')
     #mybot.learn(rule_path + '/matcher/rules/bad.aiml')
     #mybot.learn(rule_path + '/matcher/rules/funny.aiml')
