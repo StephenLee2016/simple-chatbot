@@ -38,5 +38,5 @@ Step 4. 运行chat.py进行问答测试
 > 将相似匹配算法移到了matcher
 > 增加了BM-25匹配算法
 ---
-[1] http://pan.baidu.com/s/1kVFwrpP
-[2] http://pan.baidu.com/s/1dFzZxc9
+[1]:http://pan.baidu.com/s/1kVFwrpP
+[2]:http://pan.baidu.com/s/1dFzZxc9
